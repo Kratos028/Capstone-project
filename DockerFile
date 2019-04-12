@@ -1,0 +1,4 @@
+FROM python:3
+WORKDIR /app
+COPY ./app
+cmd ["python","credit_card_detection_for_git.py"]
